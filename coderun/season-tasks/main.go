@@ -1,3 +1,4 @@
+// https://coderun.yandex.ru/selections/quickstart/problems/season-tasks
 package main
 
 import (
