@@ -1,4 +1,3 @@
-// https://coderun.yandex.ru/selections/quickstart/problems/more-your-neighbors
 package main
 
 import (
@@ -14,8 +13,8 @@ func main() {
 
 	var a, b, c, cnt, ans int
 	for {
-		n, err := fmt.Fscan(reader, &c)
-		if n == 0 || err != nil {
+		_, err := fmt.Fscan(reader, &c)
+		if err != nil {
 			break
 		}
 		cnt++
