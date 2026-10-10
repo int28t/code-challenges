@@ -1,3 +1,4 @@
+// https://coderun.yandex.ru/selections/quickstart/problems/more-your-neighbors/solutions
 package main
 
 import (
